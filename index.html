@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tristan Wede Lind</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -32,11 +35,11 @@
 
     <main>
 
-      <article>
+      <article id="new-release">
         <div>
           <p>New release</p>
           <h3>Advanced PHP: From Zero to Hero</h3>
-          <footer><p>&copy; KEA Publishing</p></footer>
+          <p>&copy; 2023 KEA Publishing</p>
         </div>
         <img src="./img/book_php_preview.png" alt="PHP book">
       </article>
@@ -104,7 +107,7 @@
           <article>
             <img src="./img/book_js.png" alt="JavaScript Book">
             <h3>Advanced JavaScript</h3>
-            <p>Frameworks</p>
+            <p>Frameworkless</p>
             <time>2021</time>
           </article>
           <article>
@@ -227,7 +230,7 @@
             </article>
           </li>
         </ol>
-        <a href="#"><img src="./img/up-arrow.png" alt="Go up" title="Scroll to top"></a>
+        <a href="#" class="scroll-to-top"><img src="./img/up-arrow.png" alt="Go up" title="Scroll to top"></a>
       </section>
 
       <section id="books">
@@ -235,6 +238,7 @@
         <ul>
           <li>
             <article>
+              <img src="./img/book_php.png" alt="PHP Book">
               <div>
                 <h4>Advanced PHP</h4>
                 <h5>From Zero to Hero <time>2023</time></h5>
@@ -248,11 +252,11 @@
                   seeking to elevate their skills to heroic heights.
                 </p>
               </div>
-              <img src="./img/book_php.png" alt="PHP Book">
             </article>
           </li>
           <li>
             <article>
+              <img src="./img/book_css.png" alt="CSS Book">
               <div>
                 <h4>CSS for Developers</h4>
                 <h5>A Visual Journey <time>2022</time></h5>
@@ -265,14 +269,14 @@
                   elevate their CSS skills and create visually captivating websites.
                 </p>
               </div>
-              <img src="./img/book_css.png" alt="CSS Book">
             </article>
           </li>
           <li>
             <article>
+              <img src="./img/book_js.png" alt="Javascript Book">
               <div>
                 <h4>Advanced JavaScript</h4>
-                <h5>Frameworksless <time>2011</time></h5>
+                <h5>Frameworksless <time>2021</time></h5>
                 <p>
                   In "Advanced JavaScript: Frameworkless," Tristan Wede Lind 
                   revolutionizes the approach to JavaScript development. Breaking free 
@@ -283,11 +287,11 @@
                   developers into true masters of the language.
                 </p>
               </div>
-              <img src="./img/book_js.png" alt="Javascript Book">
             </article>
           </li>
           <li>
             <article>
+              <img src="./img/book_programming.png" alt="Programming Book">
               <div>
                 <h4>Basic Programming</h4>
                 <h5>Algorithms and Beyond <time>2017</time></h5>
@@ -300,11 +304,11 @@
                   successful coding journey.
                 </p>
               </div>
-              <img src="./img/book_programming.png" alt="Programming Book">
             </article>
           </li>
           <li>
             <article>
+              <img src="./img/book_js_basic.png" alt="JavaScript Book">
               <div>
                 <h4>Basic Javascript</h4>
                 <h5>Tweaking the Web <time>2017</time></h5>
@@ -317,11 +321,11 @@
                   engaging user experiences.
                 </p>
               </div>
-              <img src="./img/book_js_basic.png" alt="JavaScript Book">
             </article>
           </li>
           <li>
             <article>
+              <img src="./img/book_front_end.png" alt="Front-End Book">
               <div>
                 <h4>Front-End Web Development</h4>
                 <h5>A Nice Introduction <time>2016</time></h5>
@@ -333,11 +337,10 @@
                   book is the perfect starting point for aspiring front-end developers.
                 </p>
               </div>
-              <img src="./img/book_front_end.png" alt="Front-End Book">
             </article>
           </li>
         </ul>
-        <a href="#"><img src="./img/up-arrow.png" alt="Go up" title="Scroll to top"></a>
+        <a href="#" class="scroll-to-top"><img src="./img/up-arrow.png" alt="Go up" title="Scroll to top"></a>
       </section>
 
       <section id="contact">
@@ -349,8 +352,8 @@
                 <img src="./img/victoria.png" alt="Victoria">
                 <div>
                   <h4>Publishing</h4>
-                  <p>Victoria Marsh (Editor)</p>
-                  <a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</a>
+                  <p>Victoria Marsh</p>
+                  <a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh<wbr />@keapublishing.com</a>
                   <p>Phone: <a href="tel:+4407975020028">(+44) 097 7502 0028</a></p>
                 </div>
               </div>
@@ -360,8 +363,8 @@
                 <img src="./img/elly.png" alt="Elly">
                 <div>
                   <h4>Booking</h4>
-                  <p>Elly Houthuijzen (Agent)</p>
-                  <a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com</a>
+                  <p>Elly Houthuijzen</p>
+                  <a href="mailto:elly@houthuijzen.com">elly<wbr />@houthuijzen.com</a>
                   <p>Phone: <a href="tel:+310642821232">(+31) 06-42821232</a></p>
                 </div>
               </div>
@@ -387,7 +390,7 @@
           </div>
           <img src="./img/conference.jpg" alt="Conference">
         </div>
-        <a href="#"><img src="./img/up-arrow.png" alt="Go up" title="Scroll to top"></a>
+        <a href="#" class="scroll-to-top"><img src="./img/up-arrow.png" alt="Go up" title="Scroll to top"></a>
       </section>
 
     </main>
@@ -406,17 +409,21 @@
           </ul>
         </article>
         <article>
-          <a href="#0">Privacy Policy</a>
-          <a href="#0">Terms of Service</a>
-          <a href="#0">Cookie Policy</a>
+          <ul>
+            <li><a href="#0">Privacy Policy</a></li>
+            <li><a href="#0">Terms of Service</a></li>
+            <li><a href="#0">Cookie Policy</a></li>
+          </ul>
         </article>
         <article>
-          <p>Person pictures by <a target="_blank" href="https://www.pexels.com/@bertellifotografia/">Matheus Bertelli</a></p>
-          <p>Book cover pictures by <a target="_blank" href="https://www.123rf.com/">123RF</a></p>
-          <p>SoMe icons generated with <a target="_blank" href="https://www.powr.io/plugins/social-media-icons/standalone">Powr.io</a></p>
-          <p>Microphone icon by <a target="_blank" href="https://www.freepik.com/">Freepik</a></p>
-          <p>Up arrow icon by <a target="_blank" href="https://www.flaticon.com/authors/yogi-aprelliyanto">Yogi Aprelliyanto</a></p>
-          <p>Texts generated by <a target="_blank" href="https://chat.openai.com/?model=text-davinci-002-render-sha">ChatGPT</a></p>
+          <ul>
+            <li>Person pictures by <a target="_blank" href="https://www.pexels.com/@bertellifotografia/">Matheus Bertelli</a></li>
+            <li>Book cover pictures by <a target="_blank" href="https://www.123rf.com/">123RF</a></li>
+            <li>SoMe icons generated with <a target="_blank" href="https://www.powr.io/plugins/social-media-icons/standalone">Powr.io</a></li>
+            <li>Microphone icon by <a target="_blank" href="https://www.freepik.com/">Freepik</a></li>
+            <li>Up arrow icon by <a target="_blank" href="https://www.flaticon.com/authors/yogi-aprelliyanto">Yogi Aprelliyanto</a></li>
+            <li>Texts generated by <a target="_blank" href="https://chat.openai.com/?model=text-davinci-002-render-sha">ChatGPT</a></li>
+          </ul>
         </article>
       </div>
       <p>&copy; 2023 KEA Development</p>
